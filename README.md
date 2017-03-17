@@ -3,7 +3,8 @@
 
 Uma placa Arduino facil de montar. Possui placa de circuito impresso em face simples e componentes pth. 
 
-Essa placa foi desenvolvida para as atividades no FAB LAB Livre SP durante o Arduino Day 2017 em São Paulo.
+Essa placa foi desenvolvida para as atividades no FAB LAB Livre SP durante o Arduino Day 2017 em São Paulo: http://arduinosaopaulo.cc
+
 
 Você pode facilmente fazer a sua usando uma CNC ou até mesmo métodos caseiros.
 
@@ -18,7 +19,7 @@ Microcontrolador ATtiny85 DIP, Conector USB na placa, 5 Pinos de I/O, LED de uso
 # Programação
 
 
-Para programação na IDE arduino, deve ser gravado o bootloader Micronucleus: https://github.com/micronucleus/micronucleuse 
+Para programação na IDE arduino, deve ser gravado o bootloader Micronucleus: https://github.com/micronucleus/micronucleus
 
 Na ide arduino baixe o pacote digistump, conforme explicado nesse artigo: https://www.embarcados.com.br/instalando-o-attiny85-no-windows/
 
