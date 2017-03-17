@@ -2,7 +2,7 @@
 
 
 
-#Characteristics:
+# Characteristics:
 
 -Attiny85 Microcontroller;
 
