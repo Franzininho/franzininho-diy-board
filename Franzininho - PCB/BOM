@@ -1,0 +1,25 @@
+Partlist
+
+Exported from Franzininho.brd at 19/03/2017 11:24
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package      Library               Position (mil)        Orientation
+
+C1       0.1uf          C025-025X050 adafruit              (1395.66929 776.12598) R270
+C2       10uF           E2,5-6E      adafruit              (1212.5 771.25)       R270
+D1       BZT52          DIODE-BZT52  SparkFun-DiscreteSemi (598.20866 653.79921) R180
+D2       BZT52          DIODE-BZT52  SparkFun-DiscreteSemi (602.1063 285.21654)  R180
+D3       1N4148         DIODE-1N4148 SparkFun-DiscreteSemi (604.88583 765.67323) R0
+IC1      TINY45-20-DIP  DIP08        SparkFun-DigitalIC    (1544.55118 474.15354) R180
+JP3                     1X08_ROUND   SparkFun-Connectors   (1886.90945 129.82283) R90
+LED                     LED3MM       adafruit              (1219.16339 341.15157) R270
+ON                      LED3MM       adafruit              (1219.38976 146.69291) R90
+R1       68R            AXIAL-0.4    SparkFun-Passives     (602.75591 516.94882) R0
+R2       68R            AXIAL-0.4    SparkFun-Passives     (605.21654 400.21654) R0
+R3       1K5            AXIAL-0.4    SparkFun-Passives     (707.75591 133.66142) R180
+R4       1K             AXIAL-0.4    SparkFun-Passives     (920.01969 450.21654) R270
+R5       1K             AXIAL-0.4    SparkFun-Passives     (1044.62598 453.83858) R270
+X1       USBPCB         USB-A-PCB    SparkFun              (153.14961 475.98425) MR180
