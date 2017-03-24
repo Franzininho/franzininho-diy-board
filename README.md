@@ -19,9 +19,7 @@ Microcontrolador ATtiny85 DIP, Conector USB na placa, 5 Pinos de I/O, LED de uso
 # Programação
 
 
-Para programação na IDE arduino, deve ser gravado o bootloader Micronucleus: https://github.com/micronucleus/micronucleus
-
-Na ide arduino baixe o pacote digistump, conforme explicado nesse artigo: https://www.embarcados.com.br/instalando-o-attiny85-no-windows/
+Para programação na IDE arduino, deve ser gravado o bootloader, conforme exmplicado no post do Mauricio Jabur no Fazedores: http://blog.fazedores.com/attiny85-com-v-usb-como-gravar-o-bootloader-usando-arduino/
 
 
 
