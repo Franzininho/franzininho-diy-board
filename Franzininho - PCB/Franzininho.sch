@@ -15628,7 +15628,7 @@ DIN A4, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="X1" library="SparkFun" deviceset="USB" device="PCB"/>
-<part name="IC1" library="SparkFun-DigitalIC" deviceset="ATTINY45" device="TINY45-20-DIP" value="TINY45-20-DIP"/>
+<part name="IC1" library="SparkFun-DigitalIC" deviceset="ATTINY45" device="TINY45-20-DIP" value="ATTINY85 - 20PU"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="" value="BZT52"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="" value="BZT52"/>
 <part name="C1" library="adafruit" deviceset="C-US" device="025-025X050" value="0.1uf"/>
@@ -15645,7 +15645,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="1N4148" value="1N4148"/>
-<part name="PWR" library="adafruit" deviceset="LED" device="3MM"/>
+<part name="ON" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$7" library="SparkFun" deviceset="5V" device=""/>
@@ -15681,7 +15681,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="R5" gate="G$1" x="109.22" y="45.72" rot="R180"/>
 <instance part="GND6" gate="1" x="116.84" y="45.72" rot="R90"/>
 <instance part="D3" gate="G$1" x="5.08" y="48.26" rot="R90"/>
-<instance part="PWR" gate="G$1" x="-20.32" y="27.94"/>
+<instance part="ON" gate="G$1" x="-20.32" y="27.94"/>
 <instance part="R4" gate="G$1" x="-20.32" y="17.78" rot="R90"/>
 <instance part="GND12" gate="1" x="-20.32" y="10.16"/>
 <instance part="U$7" gate="G$1" x="-20.32" y="33.02"/>
@@ -15780,7 +15780,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="U$3" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="PWR" gate="G$1" pin="A"/>
+<pinref part="ON" gate="G$1" pin="A"/>
 <pinref part="U$7" gate="G$1" pin="5V"/>
 <wire x1="-20.32" y1="30.48" x2="-20.32" y2="33.02" width="0.1524" layer="91"/>
 </segment>
@@ -15859,7 +15859,7 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="PWR" gate="G$1" pin="C"/>
+<pinref part="ON" gate="G$1" pin="C"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>

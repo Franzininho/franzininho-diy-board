@@ -643,7 +643,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="X1" library="SparkFun" package="USB-A-PCB" value="USBPCB" x="3.89" y="12.09" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="2.62" y="17.17" size="0.4064" layer="28" rot="MR180"/>
 </element>
-<element name="IC1" library="SparkFun-DigitalIC" package="DIP08" value="TINY45-20-DIP" x="39.2316" y="12.0435" smashed="yes" rot="R180">
+<element name="IC1" library="SparkFun-DigitalIC" package="DIP08" value="ATTINY85 - 20PU" x="39.2316" y="12.0435" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="IC-09439" x="39.2316" y="12.0435" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="TINY45-20-DIP" x="39.2316" y="12.0435" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="42.4066" y="12.6785" size="1.27" layer="27" ratio="10" rot="R180"/>

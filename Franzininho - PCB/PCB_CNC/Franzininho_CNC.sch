@@ -14875,7 +14875,7 @@ Grid 2.54 mm&lt;p&gt;
 </classes>
 <parts>
 <part name="X1" library="SparkFun" deviceset="USB" device="PCB"/>
-<part name="IC1" library="SparkFun-DigitalIC" deviceset="ATTINY45" device="TINY45-20-DIP" value="TINY45-20-DIP"/>
+<part name="IC1" library="SparkFun-DigitalIC" deviceset="ATTINY45" device="TINY45-20-DIP" value="ATTINY85 - 20PU"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="" value="BZT52"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="" value="BZT52"/>
 <part name="C1" library="adafruit" deviceset="C-US" device="025-025X050" value="0.1uf"/>

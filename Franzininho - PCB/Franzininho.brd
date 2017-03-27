@@ -16,8 +16,8 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -92,7 +92,7 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
@@ -683,7 +683,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="X1" library="SparkFun" package="USB-A-PCB" value="USBPCB" x="3.89" y="12.09" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="2.62" y="17.17" size="0.4064" layer="28" rot="MR180"/>
 </element>
-<element name="IC1" library="SparkFun-DigitalIC" package="DIP08" value="TINY45-20-DIP" x="39.2316" y="12.0435" smashed="yes" rot="R180">
+<element name="IC1" library="SparkFun-DigitalIC" package="DIP08" value="ATTINY85 - 20PU" x="39.2316" y="12.0435" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="IC-09439" x="39.2316" y="12.0435" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="TINY45-20-DIP" x="39.2316" y="12.0435" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="42.4066" y="12.6785" size="1.27" layer="27" ratio="10" rot="R180"/>
@@ -786,7 +786,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R4" pad="P$1"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="-"/>
-<polygon width="0.0254" layer="16" isolate="0.4572">
+<polygon width="0.0254" layer="16" isolate="0.4572" thermals="no">
 <vertex x="9.525" y="24.765"/>
 <vertex x="52.86375" y="24.765"/>
 <vertex x="52.86375" y="-0.79375"/>
