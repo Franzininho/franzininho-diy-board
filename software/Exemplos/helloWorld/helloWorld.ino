@@ -1,8 +1,8 @@
 /*
    Hello World, Franzininho!
-
-primeiro programa para a Franzininho
-
+   primeiro programa para a Franzininho
+   
+   Por: Fábio Souza
 */
 
 const byte LED = 1; //pino do LED

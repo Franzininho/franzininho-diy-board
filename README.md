@@ -15,6 +15,8 @@ Você pode facilmente fazer a sua usando uma CNC ou até mesmo métodos caseiros
 
 Microcontrolador ATtiny85 DIP, Conector USB na placa, 5 Pinos de I/O, LED de uso geral, LED de POWER
 
+Artigo no Embarcados: https://www.embarcados.com.br/franzininho-um-arduino-para-todos/
+
 
 # Programação
 
