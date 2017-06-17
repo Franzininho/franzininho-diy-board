@@ -1,3 +1,9 @@
+/*
+   Teste Bluetooth usando softserial
+   
+   Por: Fábio Souza
+*/
+
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(2, 3); // RX, TX
