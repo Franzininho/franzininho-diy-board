@@ -1,7 +1,7 @@
 /*
    Franzininho Analog read/ analog Write
 
-primeiro programa para a Franzininho
+    Saida PWM através de entrada analógica
 
 */
 
