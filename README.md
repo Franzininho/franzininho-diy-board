@@ -26,7 +26,7 @@ Para programação na IDE arduino, deve ser gravado o bootloader, conforme exmpl
 
 # Material para oficinas
 
-Em constução
+Em constução: https://goo.gl/dPkGc6
 
 
 
