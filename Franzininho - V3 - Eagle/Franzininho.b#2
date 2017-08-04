@@ -2007,10 +2007,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="-"/>
 <polygon width="0.0254" layer="16" isolate="0.4064" thermals="no">
-<vertex x="17.915" y="31.0475"/>
+<vertex x="10.905" y="31.0475"/>
 <vertex x="61.93625" y="31.0475"/>
 <vertex x="62.00375" y="1.17875"/>
-<vertex x="17.8475" y="1.0875"/>
+<vertex x="10.905" y="1.0875"/>
 </polygon>
 <contactref element="JP3" pad="8"/>
 <wire x1="16.1325" y1="12.7175" x2="18.3975" y2="12.7175" width="1.016" layer="16"/>
