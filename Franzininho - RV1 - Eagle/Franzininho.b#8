@@ -495,6 +495,47 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="GeekAmmo">
+<description>&lt;h3&gt;GeekAmmo  Library&lt;/h3&gt;
+
+These are parts used by the GeekAmmo company (now part of SparkFun Electronics)!
+
+ If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt;Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TAC-SWITCH-PTH">
+<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
+<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.524" shape="long"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -745,6 +786,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="28.2575" y="16.92275" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="41.5925" y="20.47875"/>
+<element name="U$6" library="GeekAmmo" package="TAC-SWITCH-PTH" value="TACTILE-SWITCH-PTH" x="-12.3825" y="-4.1275"/>
 </elements>
 <signals>
 <signal name="N$10">
@@ -804,6 +846,18 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="10.795" y1="1.5875" x2="10.16" y2="2.2225" width="1.016" layer="16"/>
 <wire x1="10.16" y1="2.2225" x2="10.4775" y2="2.2225" width="1.016" layer="16"/>
 <wire x1="10.4775" y1="2.2225" x2="11.43" y2="1.27" width="1.016" layer="16"/>
+<contactref element="U$6" pad="3"/>
+<contactref element="U$6" pad="4"/>
+<wire x1="35.45" y1="18.4436" x2="47.9275" y2="21.0775" width="0" layer="19" extent="1-1"/>
+<wire x1="35.4216" y1="15.8535" x2="35.45" y2="18.4436" width="0" layer="19" extent="1-1"/>
+<wire x1="30.7975" y1="18.31975" x2="35.45" y2="18.4436" width="0" layer="19" extent="1-1"/>
+<wire x1="26.5335" y1="16.6075" x2="30.7975" y2="18.31975" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3685" y1="16.5155" x2="26.5335" y2="16.6075" width="0" layer="19" extent="1-1"/>
+<wire x1="19.0045" y1="16.6065" x2="23.3685" y2="16.5155" width="0" layer="19" extent="1-1"/>
+<wire x1="19.1035" y1="7.2445" x2="19.0045" y2="16.6065" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="1.27" x2="11.7475" y2="1.27" width="0" layer="19" extent="16-16"/>
+<wire x1="-9.1313" y1="-6.3881" x2="3.69" y2="8.59" width="0" layer="19" extent="16-16"/>
+<wire x1="-15.6337" y1="-6.3881" x2="-9.1313" y2="-6.3881" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="IC1" pad="8"/>
@@ -938,6 +992,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="44.7675" y1="13.335" x2="47.805" y2="13.335" width="0.8128" layer="16"/>
 <wire x1="47.805" y1="13.335" x2="47.9275" y2="13.4575" width="0.6096" layer="16"/>
 <wire x1="43.0416" y1="15.8535" x2="43.18" y2="15.7151" width="0.6096" layer="16"/>
+<contactref element="U$6" pad="2"/>
+<contactref element="U$6" pad="1"/>
+<wire x1="-9.1313" y1="-1.8669" x2="43.18" y2="14.9225" width="0" layer="19" extent="16-16"/>
+<wire x1="-15.6337" y1="-1.8669" x2="-9.1313" y2="-1.8669" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="LED" pad="A"/>
