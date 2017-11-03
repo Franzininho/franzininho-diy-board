@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.000333" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -175,11 +175,11 @@
 <text x="40.27055" y="29.1211" size="0.8128" layer="25" font="vector" ratio="15">RV1</text>
 <text x="45.13695" y="3.8989" size="0.8128" layer="25" font="vector" ratio="12" distance="30" rot="R180">Acesse:
 www.embarcados.com.br/franzininho</text>
-<text x="8.20305" y="13.87909375" size="0.8128" layer="25" font="vector" ratio="12" distance="40">Compartilhe 
+<text x="8.20305" y="13.87909375" size="0.8128" layer="25" font="vector" ratio="15" distance="40">Compartilhe 
 Conhecimento
+
 #franzininho
-#diy
-#Maker</text>
+</text>
 <rectangle x1="37.278665625" y1="10.390809375" x2="42.572028125" y2="10.399446875" layer="21"/>
 <rectangle x1="37.278665625" y1="10.399446875" x2="42.572028125" y2="10.407828125" layer="21"/>
 <rectangle x1="37.278665625" y1="10.407828125" x2="42.572028125" y2="10.416209375" layer="21"/>
