@@ -15,8 +15,8 @@
    version="1.1"
    id="svg9215"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="FZ_01_VERMELHA.svg"
-   inkscape:export-filename="C:\Users\Diana\Desktop\Franzininho\PNG\Placas\PLACA_FRANZININHO_VERMELHA.png"
+   sodipodi:docname="PLACA_FRANZININHO__VERMELHA.svg"
+   inkscape:export-filename="C:\Users\Diana\Desktop\Franzininho\PNG\Placas\teste2\PLACA_FRANZININHO_VERMELHA2.png"
    inkscape:export-xdpi="155.98811"
    inkscape:export-ydpi="155.98811">
   <defs
@@ -46,9 +46,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.28301868"
-     inkscape:cx="-338.56336"
-     inkscape:cy="637.68329"
+     inkscape:zoom="0.67678698"
+     inkscape:cx="565.71429"
+     inkscape:cy="409.42859"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -83,12 +83,13 @@
      id="layer1"
      transform="translate(0,-87)">
     <path
-       style="opacity:1;fill:#c40808;fill-opacity:1;stroke:#c40808;stroke-width:1.34372056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 70.076939,112.90917 v 44.88884 H 5.0220451 v 60.28848 H 70.076939 v 46.34838 H 294.3351 v -151.5257 z"
+       style="opacity:1;fill:#c40808;fill-opacity:1;stroke:#c40808;stroke-width:5.07862902;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 264.85742 97.923828 L 264.85742 267.58398 L 18.980469 267.58398 L 18.980469 495.44531 L 264.85742 495.44531 L 264.85742 670.61914 L 1112.4473 670.61914 L 1112.4473 97.923828 L 264.85742 97.923828 z M 315.89258 115.26172 A 26.872131 26.872131 0 0 1 342.76367 142.13477 A 26.872131 26.872131 0 0 1 315.89258 169.00586 A 26.872131 26.872131 0 0 1 289.01953 142.13477 A 26.872131 26.872131 0 0 1 315.89258 115.26172 z M 1063.7129 115.26562 A 26.872131 26.872131 0 0 1 1090.584 142.13672 A 26.872131 26.872131 0 0 1 1063.7129 169.00977 A 26.872131 26.872131 0 0 1 1036.8398 142.13672 A 26.872131 26.872131 0 0 1 1063.7129 115.26562 z M 315.89258 595.56055 A 26.872131 26.872131 0 0 1 342.76367 622.43164 A 26.872131 26.872131 0 0 1 315.89258 649.30469 A 26.872131 26.872131 0 0 1 289.01953 622.43164 A 26.872131 26.872131 0 0 1 315.89258 595.56055 z M 1063.707 595.56641 A 26.872131 26.872131 0 0 1 1090.5781 622.4375 A 26.872131 26.872131 0 0 1 1063.707 649.31055 A 26.872131 26.872131 0 0 1 1036.834 622.4375 A 26.872131 26.872131 0 0 1 1063.707 595.56641 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,87)"
        id="rect8085"
-       inkscape:connector-curvature="0"
-       inkscape:export-xdpi="57"
-       inkscape:export-ydpi="57" />
+       inkscape:export-filename="C:\Users\Diana\Desktop\Franzininho\PNG\Placas\teste2\PLACA_FRANZININHO_VERMELHA2.png"
+       inkscape:export-xdpi="155"
+       inkscape:export-ydpi="155" />
     <g
        id="g1939"
        transform="matrix(0,1.177057,-1.22387,0,243.36706,128.99548)"
@@ -1866,30 +1867,6 @@
        cy="124.56672"
        rx="6.839016"
        ry="6.7545838" />
-    <circle
-       style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:0.99209577"
-       id="path7103"
-       cx="281.44055"
-       cy="124.60711"
-       r="7.1099181" />
-    <circle
-       style="opacity:0.93999999;fill:#ffffff;stroke:#ffffff;stroke-width:0.99209577"
-       id="path7103-3"
-       cx="83.579834"
-       cy="124.60626"
-       r="7.1099181" />
-    <circle
-       style="opacity:0.93999999;fill:#ffffff;stroke:#ffffff;stroke-width:0.99209577"
-       id="path7103-8"
-       cx="281.43903"
-       cy="251.6868"
-       r="7.1099181" />
-    <circle
-       style="opacity:0.93999999;fill:#ffffff;stroke:#ffffff;stroke-width:0.99209577"
-       id="path7103-3-0"
-       cx="83.579872"
-       cy="251.68526"
-       r="7.1099181" />
     <g
        id="g5950"
        transform="matrix(5.0706441,0,0,5.0706441,-333.18388,-558.03801)">
