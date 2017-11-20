@@ -17,7 +17,7 @@
    viewBox="0 0 4000 3000"
    sodipodi:docname="pinagem_franzininho_branca.svg"
    inkscape:version="0.92.1 r15371"
-   inkscape:export-filename="C:\Users\Diana\Desktop\Franzininho\PNG\Pinagem branca\versao2\pinagem_franzininho_branca.png"
+   inkscape:export-filename="C:\Users\Diana\Saved Games\Documents\GitHub\Franzininho\imagens\pinout\PNG\pinagem_franzininho_branca.png"
    inkscape:export-xdpi="156"
    inkscape:export-ydpi="156">
   <metadata
@@ -28,7 +28,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -185,7 +185,7 @@
      showgrid="false"
      width="2000px"
      inkscape:zoom="0.16410139"
-     inkscape:cx="2249.8824"
+     inkscape:cx="1125.5775"
      inkscape:cy="1383.8759"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -3596,13 +3596,6 @@
        d="m 95.470207,138.02068 c -0.207281,-0.1031 -0.399244,0.8139 -0.374844,1.30681 0.02172,0.4384 0.209978,1.35579 0.44169,1.02629 0.394922,-0.56156 0.33316,-2.13434 -0.06682,-2.3331 z"
        style="fill:#000000;stroke:#000000;stroke-width:0.07596121px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
-  <ellipse
-     style="opacity:0.93999999;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-     id="path7097"
-     cx="2875.9949"
-     cy="971.57635"
-     rx="50.263542"
-     ry="49.654633" />
   <g
      style="stroke-width:0.84924889"
      id="g5950"
