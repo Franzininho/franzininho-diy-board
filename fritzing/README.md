@@ -26,7 +26,7 @@ Abrirá um janela onde você deverá selecionar o aquivo a ser importado. No meu
 
 Pronto a Franzininho está como componentes do fritzing.
 
-[Franzininho dentro do Fritzing](https://github.com/FBSeletronica/Franzininho/blob/master/fritzing/images_tutorial/image1.png)
+[(https://github.com/FBSeletronica/Franzininho/blob/master/fritzing/images_tutorial/image1.png)]
 
 
 
