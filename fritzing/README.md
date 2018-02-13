@@ -29,5 +29,4 @@ Abrirá um janela onde você deverá selecionar o aquivo a ser importado. No meu
 ![Franzininho dentro do Fritzing](https://github.com/FBSeletronica/Franzininho/blob/master/fritzing/images_tutorial/image1.png)
 
 
-
-
+Boa diversão!
