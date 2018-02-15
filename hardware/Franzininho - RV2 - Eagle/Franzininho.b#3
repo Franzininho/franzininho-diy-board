@@ -151,7 +151,7 @@
 <wire x1="17.89" y1="22.1975" x2="5.08" y2="22.1975" width="0" layer="20"/>
 <wire x1="5.08" y1="22.1975" x2="5.08" y2="10.1675" width="0" layer="20"/>
 <text x="46.93805" y="3.24485" size="0.8128" layer="25" font="vector" ratio="15">CC BY-SA 4.0</text>
-<text x="59.055" y="39.21125" size="1.6764" layer="25" font="vector" ratio="15" distance="45">FRANZININHO</text>
+<text x="40.9575" y="28.73375" size="1.6764" layer="25" font="vector" ratio="15" distance="45">FRANZININHO</text>
 <text x="58.7375" y="24.60625" size="0.8128" layer="25" font="vector" ratio="15">GND</text>
 <text x="60.96" y="22.86" size="0.8128" layer="25" font="vector" ratio="15" rot="R180">VCC</text>
 <text x="60.325" y="7.77875" size="0.8128" layer="25" font="vector" ratio="15" rot="R180">P0</text>
@@ -162,7 +162,7 @@
 <text x="60.325" y="20.47875" size="0.8128" layer="25" font="vector" ratio="15" rot="R180">P4</text>
 <hole x="20.5" y="28.75" drill="3"/>
 <hole x="59.5" y="28.75" drill="3"/>
-<text x="64.71805" y="35.4711" size="0.8128" layer="25" font="vector" ratio="15">by Fabio Souza</text>
+<text x="47.25555" y="2.1336" size="0.8128" layer="25" font="vector" ratio="15">by Fabio Souza</text>
 <dimension x1="-1" y1="25" x2="-1" y2="-1" x3="-1" y3="12" textsize="1.778" layer="51"/>
 <dimension x1="0" y1="27" x2="53" y2="27" x3="26.5" y3="29" textsize="1.778" layer="51"/>
 <dimension x1="9" y1="25.08" x2="53" y2="25" x3="31.00538125" y3="27.999990625" textsize="1.778" layer="150"/>
@@ -172,10 +172,10 @@
 <dimension x1="0" y1="6.04" x2="9" y2="6.04" x3="4.5" y3="-8" textsize="1.778" layer="150"/>
 <hole x="59.5" y="3.75" drill="3"/>
 <hole x="20.5" y="3.75" drill="3"/>
-<text x="71.70305" y="32.6136" size="0.8128" layer="25" font="vector" ratio="15">RV1</text>
-<text x="45.13695" y="3.8989" size="0.8128" layer="25" font="vector" ratio="12" distance="30" rot="R180">Acesse:
+<text x="38.36555" y="26.8986" size="1.016" layer="25" font="vector" ratio="15">V2RV1</text>
+<text x="50.85195" y="4.5339" size="1.016" layer="25" font="vector" ratio="12" distance="30" rot="R180">Acesse:
 www.embarcados.com.br/franzininho</text>
-<text x="8.20305" y="13.87909375" size="0.8128" layer="25" font="vector" ratio="15" distance="40">Compartilhe 
+<text x="6.29805" y="12.29159375" size="1.016" layer="25" font="vector" ratio="15" distance="40">Compartilhe 
 Conhecimento
 
 #franzininho
@@ -1675,6 +1675,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="v-reg">
+<description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="78LXX">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.1524" layer="21" curve="-111.098957"/>
+<wire x1="0.7868" y1="2.5484" x2="2.095" y2="-1.651" width="0.1524" layer="21" curve="-111.09954"/>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.1524" layer="51" curve="-34.293591"/>
+<pad name="OUT" x="-1.27" y="0" drill="0.9" diameter="1.4224"/>
+<pad name="GND" x="0" y="1.905" drill="0.8128" diameter="1.4224"/>
+<pad name="IN" x="1.27" y="0" drill="0.8128" diameter="1.4224"/>
+<text x="-0.635" y="0.889" size="1.27" layer="51" ratio="10">-</text>
+<text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.778" y="-0.635" size="1.27" layer="51" ratio="10">O</text>
+<text x="0.635" y="-0.635" size="1.27" layer="51" ratio="10">I</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1926,12 +1949,16 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="50.8" y="7.46125"/>
 <element name="RESET" library="GeekAmmo" package="TAC-SWITCH-PTH" value="TACTILE-SWITCH-PTH" x="47.9425" y="25.0825" smashed="yes" rot="R180">
-<attribute name="NAME" x="51.1175" y="30.0225" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="53.48" y="27.94" size="1.27" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="50.4825" y="30.1625" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="1X03" value="" x="36.83" y="29.21" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.7637" y="29.2862" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="29.9212" y="29.9212" size="0.8128" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="38.1" y="32.385" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="IC2" library="v-reg" package="78LXX" value="" x="26.3525" y="27.305" smashed="yes">
+<attribute name="NAME" x="21.9075" y="25.4" size="0.8128" layer="25" font="vector" ratio="10"/>
+<attribute name="VALUE" x="29.5275" y="26.035" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -1996,6 +2023,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="RESET" pad="3"/>
 <contactref element="RESET" pad="4"/>
 <contactref element="J1" pad="2"/>
+<contactref element="IC2" pad="GND"/>
 </signal>
 <signal name="5V">
 <contactref element="IC1" pad="8"/>
@@ -2051,10 +2079,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="55.88" y1="5.715" x2="57.4675" y2="5.715" width="0.8128" layer="16"/>
 <wire x1="57.4675" y1="5.715" x2="59.3725" y2="7.62" width="0.8128" layer="16"/>
 <contactref element="J1" pad="1"/>
-<wire x1="24.13" y1="26.9875" x2="24.13" y2="25.0825" width="0.8128" layer="16"/>
-<wire x1="24.13" y1="25.0825" x2="25.7175" y2="23.495" width="0.8128" layer="16"/>
-<wire x1="25.7175" y1="23.495" x2="27.9835" y2="23.495" width="0.8128" layer="16"/>
-<wire x1="27.9835" y1="23.495" x2="28.0641" y2="23.5756" width="0.8128" layer="16"/>
 <wire x1="36.83" y1="29.21" x2="39.0525" y2="29.21" width="0.8128" layer="16"/>
 <wire x1="39.0525" y1="29.21" x2="39.6875" y2="28.575" width="0.8128" layer="16"/>
 <wire x1="39.6875" y1="28.575" x2="39.6875" y2="24.03475" width="0.8128" layer="16"/>
@@ -2066,7 +2090,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="30.5235" y1="26.035" x2="28.0641" y2="23.5756" width="0.8128" layer="16"/>
 <wire x1="32.0389" y1="23.7025" x2="28.191" y2="23.7025" width="0.8128" layer="16"/>
 <wire x1="28.191" y1="23.7025" x2="28.0641" y2="23.5756" width="0.8128" layer="16"/>
-<via x="24.13" y="26.9875" extent="1-16" drill="0.6" shape="square"/>
+<contactref element="IC2" pad="OUT"/>
+<wire x1="25.0825" y1="27.305" x2="25.0825" y2="24.4475" width="0.8128" layer="16"/>
+<wire x1="25.0825" y1="24.4475" x2="26.035" y2="23.495" width="0.8128" layer="16"/>
+<wire x1="26.035" y1="23.495" x2="27.9835" y2="23.495" width="0.8128" layer="16"/>
+<wire x1="27.9835" y1="23.495" x2="28.0641" y2="23.5756" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="P$2"/>
@@ -2206,9 +2234,10 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$7">
 <contactref element="J1" pad="3"/>
-<wire x1="28.575" y1="28.2575" x2="29.5275" y2="29.21" width="0.8128" layer="16"/>
-<wire x1="29.5275" y1="29.21" x2="31.75" y2="29.21" width="0.8128" layer="16"/>
-<via x="28.575" y="28.2575" extent="1-16" drill="0.6" shape="square"/>
+<contactref element="IC2" pad="IN"/>
+<wire x1="27.6225" y1="27.305" x2="28.575" y2="27.305" width="0.8128" layer="16"/>
+<wire x1="28.575" y1="27.305" x2="30.48" y2="29.21" width="0.8128" layer="16"/>
+<wire x1="30.48" y1="29.21" x2="31.75" y2="29.21" width="0.8128" layer="16"/>
 </signal>
 </signals>
 </board>

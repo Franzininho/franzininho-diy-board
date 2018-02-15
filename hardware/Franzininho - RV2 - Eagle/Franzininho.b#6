@@ -1551,6 +1551,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="1X03">
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Aesthetics">
@@ -1639,6 +1669,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.524" shape="long"/>
 <text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="v-reg">
+<description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="78LXX">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.1524" layer="21" curve="-111.098957"/>
+<wire x1="0.7868" y1="2.5484" x2="2.095" y2="-1.651" width="0.1524" layer="21" curve="-111.09954"/>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.1524" layer="51" curve="-34.293591"/>
+<pad name="OUT" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="GND" x="0" y="1.905" drill="0.8128" shape="octagon"/>
+<pad name="IN" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="-0.635" y="0.889" size="1.27" layer="51" ratio="10">-</text>
+<text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.778" y="-0.635" size="1.27" layer="51" ratio="10">O</text>
+<text x="0.635" y="-0.635" size="1.27" layer="51" ratio="10">I</text>
 </package>
 </packages>
 </library>
@@ -1896,6 +1949,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="51.1175" y="30.0225" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="50.4825" y="30.1625" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
+<element name="IC2" library="v-reg" package="78LXX" value="" x="-4.1275" y="-13.0175"/>
+<element name="J1" library="SparkFun-Connectors" package="1X03" value="" x="-5.08" y="-18.415"/>
 </elements>
 <signals>
 <signal name="N$10">
@@ -1958,6 +2013,19 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.6175" y1="6.5325" x2="23.1775" y2="5.3975" width="0.4064" layer="16"/>
 <contactref element="RESET" pad="3"/>
 <contactref element="RESET" pad="4"/>
+<contactref element="IC2" pad="GND"/>
+<contactref element="J1" pad="2"/>
+<wire x1="51.1937" y1="27.3431" x2="56.8175" y2="25.205" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6913" y1="27.3431" x2="51.1937" y2="27.3431" width="0" layer="19" extent="1-1"/>
+<wire x1="39.6875" y1="22.76475" x2="44.6913" y2="27.3431" width="0" layer="19" extent="1-1"/>
+<wire x1="35.4235" y1="20.735" x2="39.6875" y2="22.76475" width="0" layer="19" extent="1-1"/>
+<wire x1="33.8625" y1="22.8886" x2="35.4235" y2="20.735" width="0" layer="19" extent="1-1"/>
+<wire x1="32.2585" y1="20.643" x2="33.8625" y2="22.8886" width="0" layer="19" extent="1-1"/>
+<wire x1="27.8945" y1="20.734" x2="32.2585" y2="20.643" width="0" layer="19" extent="1-1"/>
+<wire x1="44.3116" y1="19.981" x2="39.6875" y2="22.76475" width="0" layer="19" extent="1-1"/>
+<wire x1="27.9935" y1="11.372" x2="27.8945" y2="20.734" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.1275" y1="-11.1125" x2="9.0875" y2="12.7175" width="0" layer="19" extent="16-16"/>
+<wire x1="-2.54" y1="-18.415" x2="-4.1275" y2="-11.1125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="IC1" pad="8"/>
@@ -2020,6 +2088,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="39.56365" y1="25.4286" x2="39.6875" y2="25.30475" width="0.8128" layer="16"/>
 <wire x1="55.88" y1="5.715" x2="57.4675" y2="5.715" width="0.8128" layer="16"/>
 <wire x1="57.4675" y1="5.715" x2="59.3725" y2="7.62" width="0.8128" layer="16"/>
+<contactref element="IC2" pad="OUT"/>
+<contactref element="J1" pad="1"/>
+<wire x1="-5.3975" y1="-13.0175" x2="31.947" y2="5.518" width="0" layer="19" extent="16-16"/>
+<wire x1="-5.08" y1="-18.415" x2="-5.3975" y2="-13.0175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="P$2"/>
@@ -2156,6 +2228,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="14.9225" y1="19.685" x2="14.76375" y2="19.52625" width="0.8128" layer="16"/>
 <wire x1="9.0875" y1="19.7175" x2="16.795" y2="19.7175" width="1.016" layer="16"/>
 <wire x1="16.795" y1="19.7175" x2="16.8275" y2="19.685" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$7">
+<contactref element="J1" pad="3"/>
+<contactref element="IC2" pad="IN"/>
+<wire x1="-2.8575" y1="-13.0175" x2="0" y2="-18.415" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
