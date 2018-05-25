@@ -7,6 +7,9 @@ RV1
 -melhor USB
 -Melhorado SILK
 
+RV1 - kICAD
+Port feito pelo Giovanni para o kicad. Possui as mesmas características da RV1 Eagle
+
 RV2
 -Incluído regulador de Tensão - 78L05
 
