@@ -19,14 +19,14 @@ O é open hardware e foi publicado em CC-BY-SA-4.0
 
 # Projeto
 
-o projeto foi feito no Eagle CAD. Há uma versão no Kicad (RV1) que foi uma contribuição do @giobauermeister
+O projeto da PCB foi desenvolvido originalmente no Eagle CAD. Há uma versão no Kicad (RV1) que foi uma contribuição do [@giobauermeister](https://github.com/giobauermeister)
 
 
 # Revisões
 
 ## RV0
 
-- Versão inicial para o Arduino day
+- Versão inicial para o [Arduino day 2017 em São Paulo](http://arduinosaopaulo.cc/)
 
 ## RV1
 
@@ -37,7 +37,7 @@ o projeto foi feito no Eagle CAD. Há uma versão no Kicad (RV1) que foi uma con
 - Melhorado SILK
 - Incluída a Bandeira do Brasil no silk
 
-## RV1 - kICAD
+## RV1 - KICAD
 
 - Port feito pelo @giobauermeister para o kicad. Possui as mesmas características da RV1 Eagle
 
@@ -45,7 +45,7 @@ o projeto foi feito no Eagle CAD. Há uma versão no Kicad (RV1) que foi uma con
 
 - Incluído regulador de Tensão - 78L05
 
-# V2
+## V2
 
 - Mesmas características da RV2
 - Incluído conector USB A Macho. Agora a placa pode ser fabricada com espessura convencional
@@ -84,12 +84,11 @@ contato@franzininho.com.br
 
 ## Siga as redes sociais e participe da comunidade
 
-[Facebook](https://goo.gl/1adfUv)
-[Instagram](https://goo.gl/PbgHqA)
-[Youtube](https://goo.gl/pJqHjC)
-[Github](https://goo.gl/pW5orZ)
-
-[Comunidade no Facebook](https://goo.gl/fskViM)
+- [Facebook](https://goo.gl/1adfUv)
+- [Instagram](https://goo.gl/PbgHqA)
+- [Youtube](https://goo.gl/pJqHjC)
+- [Github](https://goo.gl/pW5orZ)
+- [Comunidade no Facebook](https://goo.gl/fskViM)
 
 
 
