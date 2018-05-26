@@ -7,14 +7,14 @@ O é open hardware e foi publicado em CC-BY-SA-4.0
 
 
 
-# Caracteríticas
+# Caracteríticas da Franzininho DIY
 
-- Placa em Face simples
-- Componentes em PTH
-- Microcontrolador ATtiny85-20PU
-- 5 pinos I/O
-- LED de POWER
-- LED de uso geral
+- Placa em Face simples - Para facilitar a facilitar a fabricação caseira
+- Componentes em PTH - Para montagem manual
+- Microcontrolador ATtiny85-20PU - Compatibilidade com Arduino 
+- 5 pinos I/O - Todos os pinos do microcontrolador ficarão disponíveis
+- LED de POWER - Led para indicação da alimentação
+- LED de uso geral conectado a um pino de I/O
 
 
 # Projeto
