@@ -171,10 +171,8 @@
 <text x="38.36555" y="26.8986" size="1.016" layer="25" font="vector" ratio="15">V2RV1</text>
 <text x="50.85195" y="4.5339" size="1.016" layer="25" font="vector" ratio="12" distance="30" rot="R180">Acesse:
 www.embarcados.com.br/franzininho</text>
-<text x="36.46055" y="36.73909375" size="1.016" layer="25" font="vector" ratio="15" distance="40">Compartilhe 
+<text x="11.69555" y="24.35659375" size="0.8128" layer="25" font="vector" ratio="15" distance="40">Compartilhe 
 Conhecimento
-
-#franzininho
 </text>
 <rectangle x1="37.278665625" y1="10.390809375" x2="42.572028125" y2="10.399446875" layer="21"/>
 <rectangle x1="37.278665625" y1="10.399446875" x2="42.572028125" y2="10.407828125" layer="21"/>
@@ -1277,6 +1275,8 @@ Conhecimento
 <text x="31.4325" y="27.6225" size="0.762" layer="25" font="vector" ratio="15" rot="R270">VCC</text>
 <text x="34.76625" y="25.4" size="0.762" layer="25" font="vector" ratio="15" rot="R90">GND</text>
 <text x="37.30625" y="25.7175" size="0.762" layer="25" font="vector" ratio="15" rot="R90">VIN</text>
+<text x="20.05445" y="7.07590625" size="0.8128" layer="25" font="vector" ratio="15" distance="40" rot="R180">#franzininho
+</text>
 </plain>
 <libraries>
 <library name="SparkFun-DigitalIC">
