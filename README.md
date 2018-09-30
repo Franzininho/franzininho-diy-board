@@ -3,7 +3,9 @@
 
 Para mais detalhes sobre o projeto, montagem e programação, acesse a documentação: [franzininho-docs](https://github.com/Franzininho/franzininho-docs)
 
-O é open hardware e foi publicado em [CC-BY-SA-4.0](https://github.com/Franzininho/franzininho-diy-board/blob/master/LICENSE)
+O projeto é open hardware e foi publicado em [CC-BY-SA-4.0](https://github.com/Franzininho/franzininho-diy-board/blob/master/LICENSE)
+
+Entenda mais sobre open hardware: [Open source hardware: Conheça a definição e as boas práticas](https://www.embarcados.com.br/open-hardware-definicao/)
 
 
 
