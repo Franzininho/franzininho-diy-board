@@ -1,7 +1,7 @@
 # Repositório oficial da Placa Franzininho DIY
 
 
-Para mais detalhes sobre o projeto, montagem e programação, acesse a documentação: https://franzininho.gitbook.io/franzininho-docs/(https://github.com/Franzininho/franzininho-docs)
+Para mais detalhes sobre o projeto, montagem e programação, acesse a documentação: [https://franzininho.gitbook.io/franzininho-docs/](https://github.com/Franzininho/franzininho-docs)
 
 O projeto é open hardware e foi publicado em [CC-BY-SA-4.0](https://github.com/Franzininho/franzininho-diy-board/blob/master/LICENSE)
 
