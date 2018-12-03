@@ -52,6 +52,12 @@ O projeto da PCB foi desenvolvido originalmente no Eagle CAD. Há uma versão no
 - Mesmas características da RV2
 - Incluído conector USB A Macho. Agora a placa pode ser fabricada com espessura convencional
 
+## V2RV1
+
+- Mesmas características da V2
+- Ajustado SILK e algusn footprints para melhor soldagem. Alguns componentes sofreram mudanças de posicão.
+- Nao foram alteradas as posições dos furos, conector USB e headers.
+
 
 # Contribuição
 
