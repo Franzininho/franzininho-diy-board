@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.25)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
@@ -94,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "C:/Users/fabio/Dropbox/Novas placas Franzininho/DIY/Gerber/"))
+      (outputdirectory "Gerber/"))
   )
 
   (net 0 "")
@@ -2593,7 +2593,7 @@
   (segment (start 142.3389 91.9761) (end 140.97 93.345) (width 0.8128) (layer Bottom) (net 14))
   (segment (start 143.81235 91.9761) (end 142.3389 91.9761) (width 0.8128) (layer Bottom) (net 14))
 
-  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 5BA5A98F) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 5D672487) (hatch edge 0.508)
     (priority 6)
     (connect_pads yes (clearance 0.4064))
     (min_thickness 0.0254)
