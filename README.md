@@ -1,62 +1,33 @@
-# Repositório oficial da Placa Franzininho DIY
+# Placa Franzininho DIY
 
 
-Para mais detalhes sobre o projeto, montagem e programação, acesse a documentação: [https://franzininho.gitbook.io/franzininho-docs/](https://github.com/Franzininho/franzininho-docs)
+Para mais detalhes sobre o projeto, montagem e programação, acesse a [documentação](https://franzininho.gitbook.io/franzininho-docs/)
 
-O projeto é open hardware e foi publicado em [CC-BY-SA-4.0](https://github.com/Franzininho/franzininho-diy-board/blob/master/LICENSE)
+O projeto é open hardware e foi publicado em [CC-BY-SA-4.0](https://github.com/Franzininho/franzininho-diy-board/blob/main/LICENSE)
 
 Entenda mais sobre open hardware: [Open source hardware: Conheça a definição e as boas práticas](https://www.embarcados.com.br/open-hardware-definicao/)
 
 
+# Características da Franzininho DIY
 
-# Caracteríticas da Franzininho DIY
-
-- Placa em Face simples - Para facilitar a facilitar a fabricação caseira
-- Componentes em PTH - Para montagem manual
-- Microcontrolador ATtiny85-20PU - Compatibilidade com Arduino 
-- 5 pinos I/O - Todos os pinos do microcontrolador ficarão disponíveis
-- LED de POWER - Led para indicação da alimentação
-- LED de uso geral conectado a um pino de I/O
+- Placa em Face simples - Para facilitar a fabricação caseira;
+- Componentes em PTH - Para montagem manual pois esse é um dos objetivos do projeto;
+- Microcontrolador ATtiny85-20PU - Compatibilidade com Arduino
+- 5 pinos I/O - Todos os pinos do microcontrolador disponíveis para o usuário
+- LED de POWER - LED Verde para indicação da alimentação
+- LED Amarelo de uso geral conectado a um pino de I/O D1
 
 
 # Projeto
 
-O projeto da PCB foi desenvolvido originalmente no Eagle CAD. Há uma versão no Kicad (RV1) que foi uma contribuição do [@giobauermeister](https://github.com/giobauermeister)
+O projeto da PCB foi desenvolvido originalmente no Eagle CAD. Para acompanhar o histórico do projeto acesse a [branch master](https://github.com/Franzininho/franzininho-diy-board/tree/master)
 
+Todos as versões estão disponíveis nos [releases](https://github.com/Franzininho/franzininho-diy-board/releases)
 
-# Revisões
+A versão atual é a V2.2. Projeto no Kicad.
 
-## RV0
+Para contribuições considerar a branch main. A branch master foi mantida apenas para histórico.
 
-- Versão inicial para o [Arduino day 2017 em São Paulo](http://arduinosaopaulo.cc/)
-
-## RV1
-
-- Incluído botão de RESET
-- Melhoradas as Dimensões
-- Melhorado o conector USB na PCB
-- 4 Furos de fixão
-- Melhorado SILK
-- Incluída a Bandeira do Brasil no silk
-
-## RV1 - KICAD
-
-- Port feito pelo @giobauermeister para o kicad. Possui as mesmas características da RV1 Eagle
-
-## RV2
-
-- Incluído regulador de Tensão - 78L05
-
-## V2
-
-- Mesmas características da RV2
-- Incluído conector USB A Macho. Agora a placa pode ser fabricada com espessura convencional
-
-## V2RV1
-
-- Mesmas características da V2
-- Ajustado SILK e algusn footprints para melhor soldagem. Alguns componentes sofreram mudanças de posicão.
-- Nao foram alteradas as posições dos furos, conector USB e headers.
 
 
 # Contribuição
@@ -65,11 +36,11 @@ O projeto da PCB foi desenvolvido originalmente no Eagle CAD. Há uma versão no
 
 Você dever reportar bugs ou sugestões através dá [área de Issues](https://github.com/Franzininho/franzininho-diy-board/issues) aqui no github.
 
-Certifique-se de cumprir os seguintes critérios ao criar / enviar sua issue:
+Certifique-se de cumprir os seguintes critérios ao criar/enviar sua issue:
 
-- Use um título claro e descritivo para identificar o problema / sugestão.
+- Use um título claro e descritivo para identificar o problema/sugestão.
 - Descreva as etapas exatas para reproduzir o problema em tantos detalhes quanto possível
-- Mencione o local onde este problema foi encontrado / o que sua sugestão afetará
+- Mencione o local onde este problema foi encontrado e o que sua sugestão afetará
 
 
 ## Contribuição para melhorias no hardware
@@ -77,9 +48,10 @@ Certifique-se de cumprir os seguintes critérios ao criar / enviar sua issue:
 As contribuições da comunidade são sempre bem-vindas!
 
 Esta seção destina-se a ajudar qualquer pessoa interessada em contribuir para este repositório.
+
 Antes de contribuir, primeiro obtenha a aprovação dos mantenedores do repositório e da comunidade, levantando um problema do GitHub usando as diretrizes mencionadas na seção de sugestões.
- 
-Depois de obter aprovação, você precisará fazer os seguintes passos (estas instruções assumem que você é um usuário do GitHub). 
+
+Depois de obter aprovação, você precisará fazer os seguintes passos (estas instruções assumem que você é um usuário do GitHub).
 
 - 1: fork esse repositório
 - 2: Faça as alterações, commit e push para o fork
@@ -92,22 +64,8 @@ contato@franzininho.com.br
 
 ## Siga as redes sociais e participe da comunidade
 
+- [Site](https://franzininho.com.br/)
 - [Facebook](https://goo.gl/1adfUv)
 - [Instagram](https://goo.gl/PbgHqA)
 - [Youtube](https://goo.gl/pJqHjC)
-- [Github](https://goo.gl/pW5orZ)
 - [Comunidade no Facebook](https://goo.gl/fskViM)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
