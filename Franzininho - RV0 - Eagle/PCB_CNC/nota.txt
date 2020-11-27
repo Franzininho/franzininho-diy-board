@@ -1,5 +1,0 @@
-#Versão para produção em CNC
-
-As trilass são maiores e espaçamento entre elas está menor.
-
-Não usar essa versão para outros métodos de produção
