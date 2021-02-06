@@ -448,14 +448,14 @@ F 3 "" H 7700 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Franzininho-eagle-import:CPOL-USE2,5-6E C2
+L Device:CP C2
 U 1 1 8350CC17
-P 3200 3000
-F 0 "C2" H 3240 3025 59  0000 L BNN
-F 1 "10uF" H 3240 2835 59  0000 L BNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 3200 3000 50  0001 C CNN
-F 3 "" H 3200 3000 50  0001 C CNN
-	1    3200 3000
+P 3200 3050
+F 0 "C2" H 3200 3100 59  0000 L BNN
+F 1 "10uF" H 3240 2885 59  0000 L BNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 3200 3050 50  0001 C CNN
+F 3 "" H 3200 3050 50  0001 C CNN
+	1    3200 3050
 	1    0    0    -1  
 $EndComp
 $Comp

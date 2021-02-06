@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Franzininho)(type KiCad)(uri "$(KIPRJMOD)/Franzininho.pretty")(options "")(descr ""))
+  (lib (name "Franzininho DIY")(type KiCad)(uri "${KIPRJMOD}/Franzininho DIY.pretty")(options "")(descr ""))
 )

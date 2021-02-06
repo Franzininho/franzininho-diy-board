@@ -1,12 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:Franzininho-cache
 EELAYER 30 0
 EELAYER END
-$Descr User 11774 8268
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
+Date "2021-02-06"
 Rev ""
 Comp ""
 Comment1 ""
@@ -481,17 +480,6 @@ F 3 "" H 8100 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Franzininho-eagle-import:OSHW-LOGOM LOGO1
-U 1 1 23D986A4
-P 9500 4900
-F 0 "LOGO1" H 9500 4900 50  0001 C CNN
-F 1 "OSHW-LOGOM" H 9500 4900 50  0001 C CNN
-F 2 "Franzininho:OSHW-LOGO-M" H 9500 4900 50  0001 C CNN
-F 3 "" H 9500 4900 50  0001 C CNN
-	1    9500 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Franzininho-eagle-import:TACTILE-SWITCH-PTH RESET1
 U 1 1 1E829C81
 P 7900 5100
@@ -557,21 +545,6 @@ F 3 "" H 4200 1700 50  0001 C CNN
 	1    4200 1700
 	-1   0    0    1   
 $EndComp
-$Comp
-L Franzininho-eagle-import:A4L-LOC #FRAME1
-U 1 1 CC96BE83
-P 900 7200
-F 0 "#FRAME1" H 900 7200 50  0001 C CNN
-F 1 "A4L-LOC" H 900 7200 50  0001 C CNN
-F 2 "" H 900 7200 50  0001 C CNN
-F 3 "" H 900 7200 50  0001 C CNN
-	1    900  7200
-	1    0    0    -1  
-$EndComp
-Text Notes 7400 6700 0    127  ~ 0
-FRANZININHO V2
-Text Notes 9500 6400 0    73   ~ 0
-by Fábio Souza
 $Comp
 L Regulator_Linear:L78L05_TO92 U1
 U 1 1 5B90D35B
