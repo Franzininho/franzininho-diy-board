@@ -5,17 +5,22 @@ Para mais detalhes sobre o projeto, montagem e programação, acesse a [document
 
 O projeto é open hardware e foi publicado em [CC-BY-SA-4.0](https://github.com/Franzininho/franzininho-diy-board/blob/main/LICENSE)
 
+A Franzininho DIY está certificada na [OSHWA com UID BR000003](https://certification.oshwa.org/br000003.html)
+
+![BR000003](OSHW_mark_BR000003.png)
+
 Entenda mais sobre open hardware: [Open source hardware: Conheça a definição e as boas práticas](https://www.embarcados.com.br/open-hardware-definicao/)
 
 
 # Características da Franzininho DIY
 
-- Placa em Face simples - Para facilitar a fabricação caseira;
+- Placa em face simples - Para facilitar a fabricação caseira;
 - Componentes em PTH - Para montagem manual pois esse é um dos objetivos do projeto;
 - Microcontrolador ATtiny85-20PU - Compatibilidade com Arduino
 - 5 pinos I/O - Todos os pinos do microcontrolador disponíveis para o usuário
 - LED de POWER - LED Verde para indicação da alimentação
 - LED Amarelo de uso geral conectado a um pino de I/O D1
+- Programação através da USB por Bootloader
 
 
 # Projeto
