@@ -74,3 +74,12 @@ contato@franzininho.com.br
 - [Instagram](https://goo.gl/PbgHqA)
 - [Youtube](https://goo.gl/pJqHjC)
 - [Comunidade no Facebook](https://goo.gl/fskViM)
+
+## Exemplos de simulador do Projeto Wokwi
+
+- [Franzininho Blink](https://wokwi.com/arduino/projects/301693553069785610)
+- [Display de 7 segmentos e projeto de relógio](https://wokwi.com/arduino/projects/301738586036765194)
+- [Exemplo de sensor analógico de temperatura](https://wokwi.com/arduino/projects/301751077214093834)
+- [projeto de sensor digital de umidade e temperatura](https://wokwi.com/arduino/projects/301745949656482317)
+- [Projeto de controle servo motor](https://wokwi.com/arduino/projects/302291615188255242)
+- [projeto de contador de pulso externo](https://wokwi.com/arduino/projects/302199144424931848)
